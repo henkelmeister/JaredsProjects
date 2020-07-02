@@ -12,7 +12,7 @@ public class TextAnalysisMain{
       String[] textData = null;
       String reportStr = null;
       Scanner scan = new Scanner(System.in);
-      System.out.println("Enter a text file name to analyze: \nFormat as: Data\\FileName.extension");
+      System.out.println("Enter a text file name to analyze: \nFormat as: Text analyzer project\Data\\FileName.extension");
       inputFileName = scan.nextLine();
       try{
          tfproc.processFile(inputFileName);
